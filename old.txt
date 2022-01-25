@@ -1,0 +1,292 @@
+<nav>
+    <div class="navbar__container" id="navbar">
+        <div class="navbar__logo">
+          <a onclick="Home();"><img src="images/pfp.png" alt="logo"/></a>
+        </div>
+        <div class="navbar__toggle" id="mobile-menu" style="z-index: 99;">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a onclick="Home();" class="navbar__links" id="home">Home</a>
+            </li>
+            <li class="navbar__item">
+                <a onclick="About();" class="navbar__links" id="about">About</a>
+            </li>
+            <div class="navbar__item" id="dropdown">
+                <a onclick="Projects();" class="navbar__links">Projects</a>
+                <div id="dropdown-content">
+                <a onclick="Projects('predators')" class="navbar__links--projects" id="pp">Predators</a>
+                <a onclick="Projects('me-aid')" class="navbar__links--projects" id="pp">M&E Aid</a>
+                <a onclick="Projects('amberz')" class="navbar__links--projects" id="pp">Amberz</a>
+                <a onclick="Projects('emu')" class="navbar__links--projects" id="pp">Emu Krunker</a>
+                <a onclick="Projects('debate')" class="navbar__links--projects" id="pp">St. Rose Debate</a>
+                <a onclick="Projects('cp')" class="navbar__links--projects" id="pp">Custom Powerpoints</a>
+                <a onclick="Projects('cf')" class="navbar__links--projects" id="pp">Customized Forms</a>
+                <a onclick="Projects('flkr')" class="navbar__links--projects" id="pp">FLKR</a>
+                </div>
+            </div>
+            <li class="navbar__item">
+                <a onclick="Contact()" class="navbar__links" id="contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="main" id="home">
+  <div class="intro">
+    
+      <h1>Hey! I'm <strong>Inlowik</strong></h1>
+      <p>A 
+        <span class="typewrite" data-period="1000" data-type='["Web Developer", "Bot Developer", "Debater", "Communist"]'>
+          <span class="wrap"></span>
+        </span>
+      </p>
+      <i onclick="About();" class="fas fa-arrow-down" id="arrow"></i>
+  </div>
+</div>
+<div class="about" id="abt">
+  <div class="wave">
+      <div class="top-wave"></div>
+  </div>
+  <section class="lower_about">
+    <h1 style="margin: 0;">About</h1>
+    <img src="images/pfp.png" alt="" id="pfp"><br>
+    <p>Hey! I'm Inlowik! I'm a <span id="age">14</span> year old from Canada.<br>I love <strong>programming</strong>, <strong>animals</strong>, and <strong>debating.</strong><br><br>I started making websites around 7 or 8 months ago,<br>during the winter of <strong>2020</strong>, and it was love at first site.<br><br>Since then, I have made many more websites, mostly for fun.<br>I wouldn't necessarily say I'm good at making websites,<br>but I certainly am improving.</p>
+    <br><i onclick="Projects();" class="fas fa-arrow-down" id="arrow2"></i>
+  </section>
+  <div class="wave2">
+      <div class="bottom-wave"></div>
+  </div>
+</div>
+<div class="prjcts" id="projects">
+  <section id="title">
+    <h1>Projects</h1>
+    <p>Some of the <strong><span class="typewrite" data-period="1000" data-type='["amazing", "stunning", "beautiful"]'> <span class="wrap"></span> </span></strong> websites I've made</p>
+  </section>
+  <section class="project" id="Predators">
+    <div style="text-align: center;">
+      <h1><strong>Predators</strong></h1>
+      <h2>A website for a non-profit sports organization.</h2>
+      <p>Languages Used: <strong>HTML, CSS, JavaScript</strong></p>
+      <a href="https://predators.glitch.me/" target="_blank"><button>Visit site <i class="fas fa-external-link-alt"></i></button></a>
+    </div>
+  </section>
+  <section class="project" id="me">
+    <div style="text-align: center;">
+      <h1><strong>Math & English Aid Edmonton</strong></h1>
+      <h2>A website for a math and english aid <br>organization based in Edmonton.</h2>
+      <p>Languages Used: <strong>HTML, CSS, JavaScript</strong></p>
+      <a href="https://mathenglishaid.herokuapp.com/" target="_blank"><button>Visit site <i class="fas fa-external-link-alt"></i></button></a>
+    </div>
+  </section>
+  <section class="project" id="Amberz">
+    <div style="text-align: center;">
+      <h1><strong>Amberz</strong></h1>
+      <h2>A website for a discord bot (Out of date).</h2>
+      <p>Languages Used: <strong>HTML, CSS, JavaScript</strong></p>
+      <a href="https://amberz.glitch.me/" target="_blank"><button>Visit site <i class="fas fa-external-link-alt"></i></button></a>
+    </div>
+  </section>
+  <section class="project" id="Emu">
+    <div style="text-align: center;">
+      <h1><strong>Emu Krunker</strong></h1>
+      <h2>A website for a krunker clan (Out of date).</h2>
+      <p>Languages Used: <strong>HTML, CSS, JavaScript</strong></p>
+      <a href="https://emu-krunker.glitch.me/" target="_blank"><button>Visit site <i class="fas fa-external-link-alt"></i></button></a>
+    </div>
+  </section>
+  <section class="project" id="strose_debate">
+    <div style="text-align: center;">
+      <h1><strong>St. Rose Debate</strong></h1>
+      <h2>A website for the St. Rose Debate Club.</h2>
+      <p>Languages Used: <strong>HTML, CSS, JavaScript</strong></p>
+      <a href="https://strosedebate.glitch.me/" target="_blank"><button>Visit site <i class="fas fa-external-link-alt"></i></button></a>
+    </div>
+  </section>
+  <section class="project" id="cp">
+    <div style="text-align: center;">
+      <h1><strong>Custom Powerpoints</strong></h1>
+      <h2>Screw powerpoints, CP is better.</h2>
+      <p>Languages Used: <strong>HTML, CSS, JavaScript</strong></p>
+      <a href="https://custom-powerpoints.herokuapp.com/" target="_blank"><button>Visit site <i class="fas fa-external-link-alt"></i></button></a>
+    </div>
+  </section>
+  <section class="project" id="cf">
+    <div style="text-align: center;">
+      <h1><strong>Customized Forms</strong></h1>
+      <h2>Google forms on budget.</h2>
+      <p>Languages Used: <strong>HTML, CSS, JavaScript</strong></p>
+      <a href="https://customized-forms.herokuapp.com/" target="_blank"><button>Visit site <i class="fas fa-external-link-alt"></i></button></a>
+    </div>
+  </section>
+  <section class="project" id="flkr">
+    <div style="text-align: center;">
+      <h1><strong>Personal Sites (Unfinished)</strong></h1>
+      <h2>Sites for friends :D</h2>
+      <p>Languages Used: <strong>HTML, CSS</strong></p>
+      <a href="https://xeylveniii.herokuapp.com/" target="_blank"><button>Visit site <i class="fas fa-external-link-alt"></i></button></a>
+      <br>
+      <br>
+      <a href="https://shirimori.herokuapp.com/" target="_blank"><button>Visit site <i class="fas fa-external-link-alt"></i></button></a>
+    </div>
+  </section>
+  <br><i onclick="Contact();" class="fas fa-arrow-down" id="arrow"></i>
+</div>
+<div class="contact" id="ctc">
+  <div class="wave" style="margin-top: 200px;">
+      <div class="top-wave"></div>
+  </div>
+  <section class="lower_about">
+    <h1>Contact</h1>
+    <h2>Let's Connect!</h2>
+    <section class="social__media2">
+      <div class="social__media--wrap2">
+        <div class="social__icons2">
+          <a href="https://www.instagram.com/inlowik/" target="_blank" class="social__icon--link2" id="insta2" ><i class="fab fa-instagram"></i ></a>
+          <a href="https://www.facebook.com/profile.HTML?id=100072303312260" target="_blank" class="social__icon--link2" id="facebook2"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+          <a href="https://mail.google.com/mail/u/0/?fs=1&to=inlowik@gmail.com&tf=cm" target="_blank" class="social__icon--link2" id="gmail2"><i class="fas fa-inbox" aria-hidden="true"></i></a>
+          <a href="https://discordapp.com/users/704069756717629472/" target="_blank" class="social__icon--link2" id="discord2"><i class="fab fa-discord" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </section>
+    <div id="form">
+      <div class="form">
+        <form action="javascript:void(0);" onsubmit="mail();" id="f">
+          <input autocomplete="off" type="text" id="name" placeholder="Full Name" required><br>
+          <input autocomplete="off" type="email" pattern="[a-zA-Z0-9_\.\+-]+@gmail+\.com+" id="body" placeholder="Gmail" required><br>
+          <button id="submit_button">Let's Talk!</button><br>
+        </form>
+        <p style="padding: 0;margin-top: 0;color:white;font-size: 15px;margin-bottom:20px;">inlowik@gmail.com</p>
+      </div>
+    </div>
+    <p style="font-size: 40px;"></p>
+  </section>
+  <div class="wave2" style="bottom: 0;">
+      <div class="bottom-wave"></div>
+  </div>
+</div>
+<div class="footer__container" id="home-footer">
+    <div class="footer__links">
+      <div class="footer__link--wrapper">
+        <div class="footer__link--items">
+          <p>
+            <a onclick="Home()" class="navbar__links" id="footer-home-page">© 2021 - Made by Inlowik</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <section class="social__media">
+      <div class="social__media--wrap">
+        <div class="social__icons">
+          <a href="https://www.instagram.com/inlowik/" target="_blank" class="social__icon--link" id="insta" ><i class="fab fa-instagram"></i ></a>
+          <a href="https://www.youtube.com/channel/UCPFD8Ho6szs7Pvpcb_ByHOQ" target="_blank" class="social__icon--link" id="youtube" ><i class="fab fa-youtube"></i ></a>
+          <a href="https://github.com/EdwardLuoJihan" target="_blank" id="github" class="social__icon--link" ><i class="fab fa-github"></i ></a>
+          <a href="https://www.facebook.com/profile.HTML?id=100072303312260" target="_blank" class="social__icon--link" id="facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+          <a href="https://mail.google.com/mail/u/0/?fs=1&to=inlowik@gmail.com&tf=cm" target="_blank" class="social__icon--link" id="gmail"><i class="fas fa-inbox" aria-hidden="true"></i></a>
+          <a href="https://discordapp.com/users/704069756717629472/" target="_blank" class="social__icon--link" id="discord"><i class="fab fa-discord" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </section>
+  </div>
+<script>
+  function mail() {
+    var body = document.getElementById("body").value;
+    var name = document.getElementById("name").value;
+    link = "https://mail.google.com/mail/?view=cm&fs=1&to=inlowik@gmail.com&su=" + "Message from " + name + ": " + body;
+    window.open(link);
+    document.getElementById("f").reset();
+  }
+  var TxtType = function(el, toRotate, period) {
+    this.toRotate = toRotate;
+    this.el = el;
+    this.loopNum = 0;
+    this.period = parseInt(period, 10) || 2000;
+    this.txt = '';
+    this.tick();
+    this.isDeleting = false;
+  };
+
+  TxtType.prototype.tick = function() {
+      var i = this.loopNum % this.toRotate.length;
+      var fullTxt = this.toRotate[i];
+
+      if (this.isDeleting) {
+      this.txt = fullTxt.substring(0, this.txt.length - 1);
+      } else {
+      this.txt = fullTxt.substring(0, this.txt.length + 1);
+      }
+
+      this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+      var that = this;
+      var delta = 200 - Math.random() * 100;
+
+      if (this.isDeleting) { delta /= 2; }
+
+      if (!this.isDeleting && this.txt === fullTxt) {
+      delta = this.period;
+      this.isDeleting = true;
+      } else if (this.isDeleting && this.txt === '') {
+      this.isDeleting = false;
+      this.loopNum++;
+      delta = 500;
+      }
+
+      setTimeout(function() {
+      that.tick();
+      }, delta);
+  };
+
+  window.onload = function() {
+      var elements = document.getElementsByClassName('typewrite');
+      for (var i=0; i<elements.length; i++) {
+          var toRotate = elements[i].getAttribute('data-type');
+          var period = elements[i].getAttribute('data-period');
+          if (toRotate) {
+            new TxtType(elements[i], JSON.parse(toRotate), period);
+          }
+      }
+      // INJECT CSS
+      var css = document.createElement("style");
+      css.type = "text/css";
+      document.body.appendChild(css);
+  };
+  function About() {
+    $('html,body').animate({ scrollTop: $("#abt").offset().top }, 0);
+  }
+  function Home() {
+    $('html,body').animate({ scrollTop: 0 }, 0);
+  }
+  function Projects(p) {
+    if(!p) {
+      $('html,body').animate({ scrollTop: $("#projects").offset().top - $("#navbar").height() - 95}, 0);
+    }else if(p=="predators"){
+      $('html,body').animate({ scrollTop: $("#Predators").offset().top - $("#navbar").height() - 20 }, 0);
+    }else if(p=="me-aid"){
+      $('html,body').animate({ scrollTop: $("#me").offset().top - $("#navbar").height() - 20 }, 0);
+    }
+    else if(p=="amberz"){
+      $('html,body').animate({ scrollTop: $("#Amberz").offset().top - $("#navbar").height() - 20 }, 0);
+    }
+    else if(p=="emu"){
+      $('html,body').animate({ scrollTop: $("#Emu").offset().top - $("#navbar").height() - 20 }, 0);
+    }
+    else if(p=="debate"){
+      $('html,body').animate({ scrollTop: $("#strose_debate").offset().top - $("#navbar").height() - 20 }, 0);
+    }
+    else if(p=="cp"){
+      $('html,body').animate({ scrollTop: $("#cp").offset().top - $("#navbar").height() - 20 }, 0);
+    }
+    else if(p=="cf"){
+      $('html,body').animate({ scrollTop: $("#cf").offset().top - $("#navbar").height() - 20 }, 0);
+    }
+    else if (p=="flkr"){
+      $('html,body').animate({ scrollTop: $("#flkr").offset().top - $("#navbar").height() - 20 }, 0);
+    }
+  }
+  function Contact() {
+    $('html,body').animate({ scrollTop: $("#ctc").offset().top - $("#navbar").height()}, 0);
+  }
+</script>
