@@ -1,8 +1,6 @@
-<style>
-    body {
-        overflow: hidden;
-    }
-</style>
+<link rel="stylesheet" href="styles/404.css">
 
-
-<img src="images/404.png" alt="" height="100%">
+<body>
+    <img src="images/404.png" alt="" height="70%">
+    <h1>The Page You're Looking For Doesn't Exist!</h1>
+</body>

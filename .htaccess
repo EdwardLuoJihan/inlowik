@@ -2,4 +2,4 @@ RewriteEngine on
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 DirectorySlash Off
 DirectoryIndex home.php
-ErrorDocument 404 /404.php
+ErrorDocument 404 /inlowik/404.php

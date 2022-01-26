@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "bold";
+    src: url("../fonts/medium.ttf") format("TrueType");
+}
+
+body {
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    font-family: "bold", sans-serif;
+    color: #090043;
+    padding-top: 5vw;
+}
