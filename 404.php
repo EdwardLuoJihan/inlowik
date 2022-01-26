@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="styles/404.css">
+<link rel="icon" href="images/logo.png"></link>
 
 <title>404 Page Not Found | Inlowik</title>
 
