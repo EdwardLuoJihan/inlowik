@@ -40,7 +40,7 @@
   </div>
   <div class="main_content">
     <div class="title">
-      <h1 id="intro">Hey! I'm</h1>
+      <h1 id="intro">Hey! <span id="emoji">👋</span> I'm</h1>
       <h2 id="name">Inlowik</h2>
       <h3 id="bio">A <span id="age"></span> year old programmer from Canada 🍁</h3>
       <div class="social_icons" id="icons">
