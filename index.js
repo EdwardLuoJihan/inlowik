@@ -37,8 +37,6 @@ window.addEventListener("load", async function(){
     document.getElementById("name").classList.add("animating");
     document.getElementById("icons").classList.add("animating");
     document.getElementById("bio").classList.add("animating");
-    document.getElementById("Loader").classList.add("animating");
-    document.getElementById("status").classList.add("animating");
 });
 
 function preloadImages(array) {

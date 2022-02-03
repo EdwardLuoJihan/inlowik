@@ -217,7 +217,9 @@ body {
     padding-top: 50px;
     align-items: center;
     text-align: left;
-    width: 100%;
+    position: fixed;
+    width: 50%;
+    height: 100%;
 }
 
 .title h1 {
@@ -310,7 +312,7 @@ rect {
     display: inline-block;
     opacity: 0;
     padding-left: 100px;
-    position: absolute;
+    position: fixed;
     bottom: 5%;
 }
 

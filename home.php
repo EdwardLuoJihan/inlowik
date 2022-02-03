@@ -42,7 +42,7 @@
     <div class="title">
       <h1 id="intro">Hey! <span id="emoji">👋</span> I'm</h1>
       <h2 id="name">inlowik</h2>
-      <h3 id="bio">A <span id="age"></span> year old programmer from Canada 🍁<br><br>I love playing <span class="val">Valorant</span>, <span class="cat">cats</span>, and anything related to <span class="python">programming</span>.</h3>
+      <h3 id="bio"><span id="firstline">A <span id="age"></span> year old programmer from Canada 🍁</span><br><br></h3>
       <div class="social_icons" id="icons">
         <a title="Github" href="https://github.com/EdwardLuoJihan" target="_blank"><span>Github</span></a>
         <a title="Instagram" href="https://www.instagram.com/inlowik/" target="_blank"><span>Instagram</span></a>
