@@ -21,7 +21,7 @@
   <img src="images/logo.png" alt="" class="loading-logo">
     <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
   </div>
-  <div class="navbar">
+  <!-- <div class="navbar">
     <div class="logo_container">
       <img src="images/logo.png" alt="" class="logo" onclick="home('home')" style="cursor:pointer">
       <span onclick="home('home')" style="cursor:pointer">Inlowik</span>
@@ -37,20 +37,20 @@
       <span>Contact</span>
       </a>
     </div>
-  </div>
+  </div> -->
   <div class="main_content">
     <div class="title">
       <h1 id="intro">Hey! <span id="emoji">👋</span> I'm</h1>
       <h2 id="name">inlowik</h2>
-      <h3 id="bio">A <span id="age"></span> year old programmer from Canada 🍁</h3>
+      <h3 id="bio">A <span id="age"></span> year old programmer from Canada 🍁<br><br>I love playing <a href="https://tracker.gg/valorant/profile/riot/snorleus%23ily/overview?season=all" class="val">Valorant</a>, <span class="cat">cats</span>, and anything related to <span class="python">programming</span>.</h3>
       <div class="social_icons" id="icons">
-        <a href="https://github.com/EdwardLuoJihan" target="_blank"><span>Github</span></a>
-        <a href="https://www.instagram.com/inlowik/" target="_blank"><span>Instagram</span></a>
-        <a href="https://mail.google.com/mail/u/0/?fs=1&to=inlowik@gmail.com&tf=cm" target="_blank"><span>Google</span></a>
+        <a title="Github" href="https://github.com/EdwardLuoJihan" target="_blank"><span>Github</span></a>
+        <a title="Instagram" href="https://www.instagram.com/inlowik/" target="_blank"><span>Instagram</span></a>
+        <a title="Gmail" href="https://mail.google.com/mail/u/0/?fs=1&to=inlowik@gmail.com&tf=cm" target="_blank"><span>Google</span></a>
       </div>
     </div>
   </div>
-  <div class="loading_cont">
+  <!-- <div class="loading_cont">
     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" id="Loader">
       <defs>
         <filter id="goo">
@@ -75,7 +75,7 @@
       </mask>
       <rect x="200" y="200"  mask="url(#maska)" fill="url(#MyGradient)" width="400" height="400">
     </svg>  
-  </div>
+  </div> -->
   <div class="background"></div>
   <script>
     AOS.init();

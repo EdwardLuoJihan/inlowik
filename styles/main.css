@@ -39,7 +39,7 @@ body {
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     overflow-x: hidden;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     scroll-behavior: smooth;
 }
 
@@ -214,7 +214,7 @@ body {
 }
 
 .title {
-    padding-top: 150px;
+    padding-top: 50px;
     align-items: center;
     text-align: left;
     width: 100%;
@@ -308,9 +308,10 @@ rect {
 
 .social_icons {
     display: inline-block;
-    padding-top: 30px;
     opacity: 0;
     padding-left: 100px;
+    position: absolute;
+    bottom: 5%;
 }
 
 .social_icons a {
@@ -481,3 +482,15 @@ rect {
     content: '';
 }
 
+/* Bio */
+
+.val {
+    transition: all 0.4s ease;
+    text-decoration: none;
+    color: #ff5757;
+}
+
+.val:hover {
+    color: white;
+    background-color: #ff5757;
+}
