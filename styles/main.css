@@ -481,16 +481,3 @@ rect {
 .navbar_link span::before {
     content: '';
 }
-
-/* Bio */
-
-.val {
-    transition: all 0.4s ease;
-    text-decoration: none;
-    color: #ff5757;
-}
-
-.val:hover {
-    color: white;
-    background-color: #ff5757;
-}
