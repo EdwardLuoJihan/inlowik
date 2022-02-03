@@ -1,13 +1,28 @@
 @font-face {
     font-family: "bold";
+    src: url("../fonts/bold.ttf") format("TrueType");
+}
+
+@font-face {
+    font-family: "medium";
     src: url("../fonts/medium.ttf") format("TrueType");
 }
 
-body {
+h2 {
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    font-family: "medium", sans-serif;
+    color: #090043;
+}
+
+h1 {
     overflow: hidden;
     text-align: center;
     align-items: center;
     font-family: "bold", sans-serif;
-    color: #090043;
-    padding-top: 5vw;
+    color: #ff5757;
+    margin: 0;
+    padding: 5vw;
+    font-size: 10vw;
 }
